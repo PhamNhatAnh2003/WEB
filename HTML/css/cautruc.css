@@ -1,0 +1,6 @@
+.img{
+    width: 200px; /* Độ rộng mong muốn */
+        height: auto; /* Chiều cao tự động điều chỉnh để giữ tỷ lệ khung hình ban đầu */
+        transform: scale(0.5); /* Giảm kích thước ảnh xuống 50% */
+        transform-origin: 0 0; /* Đặt điểm gốc để giữ vị trí của ảnh */}
+        

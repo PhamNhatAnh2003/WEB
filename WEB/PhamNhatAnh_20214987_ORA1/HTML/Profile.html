@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="/CSS/style-Profile.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  </head>
+  <body>
+    <div class="header">
+      <a href="index.HTML">  
+        <img class="logo" src="/images/OIP.jpg" alt="">
+      </a>
+       <div class="header-items">
+            <a href="Course.html" class="header-item">Thông tin môn học</a>
+            <a href="Techweb.html" class="header-item">Các công nghệ web</a>
+            <a href="Profile.html" class="header-item active">Thông tin cá nhân</a>
+       </div>
+
+
+
+        <button class="sidebar-btn" onclick="handleSidebarOpen()"><i class="fa-solid fa-bars"></i></button>
+    </div>
+    <div class="overlay"></div>
+
+    <div class="sidebar">
+            <div class="sidebar-header">
+           <h2>Menu</h2>
+           <button class="sidebar-close-btn" onclick="handleSidebarClose()"><i class="fa-solid fa-xmark"></i></button>          
+        </div>
+        <div class="sidebar-content">
+          <a class="sidebar-item" href="#article-1">Thông tin cơ bản</a>
+          <a class="sidebar-item" href="#article-2">Sở thích</a>
+          <a class="sidebar-item" href="#article-3">Kinh nghiệm làm việc với web</a>
+          <a class="sidebar-item" href="#article-4">CV cá nhân</a>
+        </div>
+    </div>
+
+
+
+    <div class="main">
+      <div class="article" id="article-1">
+        <div class="article-left">
+            <h1>Thông tin cơ bản</h1>
+            <div class="article-content">
+                <p><strong>Họ và tên:</strong> Phạm Nhật Anh</p>
+                <p><strong>Mã số sinh viên</strong>: 20214987</p>
+                <p><strong>Giới tính</strong>: Nam</p>
+                <p><strong>Lớp</strong>: Việt Nhật-01</p>
+                <p><strong>Ngày sinh</strong>: 09/04/2003</p>
+                <p><strong>Quê quán</strong>: Sơn Kim 1, Hương Sơn, Hà Tĩnh</p>
+                <p><strong>Số điện thoại</strong>: 0912198345</p>
+                <p><strong>Email</strong>: anh.pn214987@sis.hust.edu.vn</p>
+                <p><strong>Facebook</strong>: <a href="https://www.facebook.com/profile.php?id=100011876882446"> Anh Pham</a></p>
+
+            </div>
+        </div>
+        <div class="article-right">
+            <a href="https://www.facebook.com/profile.php?id=100011876882446" target="_blank">
+            <img src="/images/anhthe.jpg" alt="avata"/>
+        </a>
+      
+        </div>
+      </div>
+      <div class="article" id="article-2">
+        <div class="article-left">
+            <h1>Sở thích</h1>
+            <h3>Tôi có nhiều sở thích khác nhau, và mỗi sở thích đều mang lại cho tôi niềm vui và sự thư giãn.</h3>
+            <div class="article-content">
+               <ol>
+                <li>Đọc sách
+                  là một trong những sở thích quan trọng nhất của tôi. 
+                  Tôi thích đọc nhiều thể loại, từ tiểu thuyết, sách kỹ năng sống cho đến sách khoa học. 
+                  Việc đọc giúp tôi mở rộng hiểu biết và khám phá thế giới từ những góc nhìn mới. 
+                  Mỗi khi có thời gian rảnh, tôi thường dành thời gian đọc sách và tìm kiếm những kiến thức mới.
+                </li>
+                <li>Thể thao, 
+                  tôi thích chạy bộ vào buổi sáng, vì đó là cách tuyệt vời để bắt đầu một ngày mới tràn đầy năng lượng. 
+                  Bên cạnh đó, tôi cũng thường xuyên tham gia các hoạt động như đá bóng hoặc bơi lội để rèn luyện sức khỏe và gặp gỡ bạn bè.
+                </li>
+                <li>
+                  Âm nhạc là một phần không thể thiếu trong cuộc sống. 
+                  Tôi thích nghe nhạc để thư giãn sau những giờ làm việc căng thẳng. 
+                  Những bản nhạc chill có thể khiến tâm hồn thoải mái hơn, còn những bài nhạc sôi động thì giúp tôi có thêm năng lượng và tinh thần vui vẻ.
+                </li>
+                <li>
+                  Ngoài những hoạt động trên, tôi còn có niềm đam mê với nấu ăn. 
+                  Tôi thích thử nghiệm các công thức mới và sáng tạo những món ăn độc đáo. 
+                  Việc nấu ăn không chỉ là cách để tôi giải tỏa căng thẳng mà còn là cơ hội để tôi chăm sóc sức khỏe cho gia đình và bạn bè.
+                </li>
+                <li>
+                  Du lịch cũng là một trong những điều tôi thích nhất. 
+                  Mỗi chuyến đi đều mang đến cho tôi những trải nghiệm mới mẻ và giúp tôi hiểu thêm về các nền văn hóa khác nhau. 
+                  Tôi thích khám phá những địa điểm mới, thử những món ăn đặc sản địa phương và hòa mình vào thiên nhiên.
+                </li>
+                <li>Cuối cùng, là được nhìn crush mỗi ngày đến lớp.
+
+                </li>
+               </ol>
+            </div>
+        </div>
+        <div class="article-right">
+            
+        <a href="https://www.bing.com/search?q=Tr%C3%A0+d%C3%A2u+anh+b%C3%A9o&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=tr%C3%A0+d%C3%A2u+anh+b%C3%A9o&sc=6-15&sk=&cvid=17C320CA2172458CADA30A9F0DE62905&ghsh=0&ghacc=0&ghpl=" target="_blank">
+          <img src="/images/chill.jpg" alt="avata"/>
+        </a>
+        </div>
+      </div>
+      <div class="article" id="article-3">
+        <div class="article-left">
+            <h1>Kinh nghiệm làm việc với web</h1>
+            <h3>Kinh nghiệm làm việc với web của tôi khá đa dạng và bao gồm nhiều khía cạnh, từ thiết kế giao diện đến phát triển backend.</h3>
+            <div class="article-content">
+               <ol>
+                <li>Bắt đầu với HTML, CSS, và JavaScript, tôi đã xây dựng nhiều giao diện web tương tác, 
+                   đảm bảo tính thân thiện với người dùng và khả năng đáp ứng trên các thiết bị khác nhau (responsive design).
+                   Việc tối ưu hóa giao diện không chỉ giúp tăng trải nghiệm người dùng mà còn cải thiện hiệu suất và tốc độ tải trang.</li>
+                <li>
+                  Tôi có một ít kinh nghiệm với các framework front-end như React và Vue.js, 
+                  giúp tăng tốc quá trình phát triển giao diện và quản lý trạng thái phức tạp. 
+                  Đặc biệt, tôi thường xuyên áp dụng CSS preprocessors như Sass để dễ dàng quản lý và tái sử dụng các thành phần thiết kế.
+                </li>
+                <li>Về phần backend, tôi đã làm việc với các công nghệ như Node.js, PHP, và Python (với Flask, Django). 
+                  Tôi đã triển khai các RESTful API, tích hợp cơ sở dữ liệu như MySQL, MongoDB, và PostgreSQL để xây dựng những ứng dụng web mạnh mẽ. 
+                  Đặc biệt, tôi rất chú trọng đến bảo mật, tối ưu hóa hiệu suất và đảm bảo tính mở rộng cho các hệ thống lớn.
+                  Ngoài ra, tôi cũng có kinh nghiệm với DevOps và cloud services như AWS, Docker, 
+                  và CI/CD pipelines để tự động hóa quá trình triển khai và quản lý server. 
+                  Điều này giúp giảm thời gian triển khai, nâng cao hiệu suất và độ tin cậy của hệ thống.</li>
+                <li>Với sự kết hợp của kỹ năng thiết kế và phát triển web, tôi luôn đặt mục tiêu tạo ra các sản phẩm không chỉ đẹp mắt mà còn có tính thực tiễn cao, 
+                    giúp đáp ứng tốt nhất nhu cầu của người dùng và doanh nghiệp.</li>
+               </ol>
+            </div>
+        </div>
+        <div class="article-right">
+            <a href="https://www.bing.com/search?pglt=43&q=l%C3%A0m+vi%E1%BB%87c+v%E1%BB%9Bi+web&cvid=d516541791fb47ea9ccac86f00561164&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhAMggIAhDpBxj8VdIBCDg2MDNqMGoxqAIAsAIA&FORM=ANNAB1&PC=U531" target="_blank">
+            <img src="/images/lamviec.jpg" alt="avata"/>
+        </a>
+        </div>
+      </div>
+      <div class="article" id="article-4">
+        <div class="article-left">
+            <h1>CV cá nhân</h1>
+            <div class="article-content">
+               <ol>
+                <li> <strong> Thông tin cá nhân</strong> 
+                  <ul>Họ và tên: Phạm Nhật Anh</ul>
+                  <ul>Số điện thoại: 0912198345</ul>
+                  <ul>Email: anhpham090423@gmail.com</ul>
+                </li>
+                <li> <strong> Mục tiêu nghề nghiệp</strong> 
+                  <ul></ul>
+                  <ul></ul>
+                  <ul></ul>
+                </li>
+                <li> <strong> Trình độ học vấn</strong> 
+                  <ul>Văn hóa: 12/12</ul>
+                  <ul>Đại học Bách Khoa Hà Nội (2021)</ul>
+                </li>
+                <li><strong>Kinh nghiệm làm việc</strong> 
+                  <ul>Trong quá trình học tập, em đã tiếp thu được kinh nghiệm. kiến thức về các lĩnh vực IT.</ul> 
+                  <ul>Có thể cùng teamwork tạo ra các dự án nhỏ</ul> 
+                  <ul>Các trang web nhỏ để hoàn thành môn học cũng như môn học đề ra</ul>
+                </li>
+                <li> <strong> Kỹ năng cá nhân</strong> 
+                  <ul>Tiếng Anh giao tiếp cơ bản</ul>
+                  <ul>Tiếng Nhật cơ bản</ul>
+                  <ul>Kỹ năng làm việc nhóm</ul>
+                </li>
+                <li> <strong>Chứng chỉ-Bằng cấp(nếu có)</strong> 
+                </li>
+               </ol>
+            </div>
+        </div>
+        <div class="article-right">
+            <a href="https://www.topcv.vn/p/pham-anh-7679879?isView=1&ta_source=ViewProfileInManagerCV" target="_blank">
+            <img src="/images/avata.jpg" alt="avata"/>
+        </a>
+        <a href="https://hust.edu.vn/" target="_blank">
+          <img src="/images/hust.jpg" alt="avata"/>
+      </a>
+        </div>
+      </div>
+
+
+      <div class="pagination">
+        <div class="pagination-item active">1</div>
+        <div class="pagination-item">2</div>
+        <div class="pagination-item">3</div>
+        <div class="pagination-item">4</div>
+        <div class="pagination-item">5</div>
+        <div class="pagination-item next btn">
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+      
+    </div>
+    <div class="footer">
+        <div class="footer-text">
+          <p>Bản quyền thuộc Pham Nhat Anh-20214987</p>
+          <p class="normal">Địa chỉ: ĐHBKHN, Số 1, Đại Cồ Việt, Hai Bà Trưng, Hà Nội</p>
+      </div>
+       
+  </div>
+    <script src="/JS/index.js"></script>
+  </body>
+</html>

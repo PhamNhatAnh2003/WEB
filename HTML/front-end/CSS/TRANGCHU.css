@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #512da8;
+    color: #fff;
+    text-indent: left;
+    padding: 10px 0;
+    position: relative;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+header h1{
+    color: #f8f6f6;
+    font-size: bold;
+    top: 50px;
+    left: 100%;
+    padding-top: 0;
+    height: 36px;
+  
+    
+}
+header h1 img{
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+    margin-right: 3px;
+}
+
+
+
+.button{
+    left: 10%;
+    margin-top: -10;
+}
+
+.nut button{
+    background-color: #f7f5fb;
+    color: #100e0e;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute; /* Thêm */
+    top: 50%; /* Thêm */
+    transform: translateY(-50%); /* Thêm */
+    top: 40px; /* Thêm */
+    right: 1%;
+}
+
+.navbar-brand {
+    color: #fff;
+  }
+  
+  .navbar-nav > li > a {
+    color: #fff;
+  }
+  
+  .navbar-nav > li > a:hover {
+    background-color: #512da8;
+  }
+  
+  .navbar-form {
+    margin-right: 0px;
+  }
+  
+
+/*phần thân truyện */
+
+.mathang, .mathang2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .item {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    overflow: hidden; /* Đảm bảo hình ảnh không tràn ra ngoài khung mặt hàng */
+}
+
+.item img {
+    transition: transform 0.5s;
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* Để tránh các khoảng trống dư thừa */
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.item:hover .title {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.container {
+    max-width: 1200px; /* Độ rộng tối đa của footer */
+    margin: 0 auto; /* Canh giữa footer */
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Điều chỉnh độ cao của slider tại đây */
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s;
+}
+
+

@@ -1,0 +1,38 @@
+.body{
+    background-color: #59CD90;
+    color: #3FA7D6;
+    font-family: "Fjalla One", Arial
+}
+
+.body{
+    display: block;
+    margin: 8px;
+}
+.overlay{
+    width: 80%;
+    min-width: 30%;
+    margin: 3% auto;
+    display: block;
+    padding: 2%;
+    height: 90vh;
+    background-color: rgba(11, 231, 227, 0.9);
+    border-radius: 40px;
+    text-align: center;
+}
+
+
+.khung{
+    width: 450px; /* Độ rộng của div */
+    height: 400px; /* Chiều cao của div */
+    background-color: #f0f0f0; /* Màu nền của div */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.h1{
+    font-size: +3;
+    color: red;
+    font-weight:bold;
+}

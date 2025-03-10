@@ -1,0 +1,58 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+
+body{
+    height: 100hv;
+    background: linear-gradient(to right,#4daf54, #3d8880);
+}
+
+.card{
+    position: relative;
+    margin: 120px auto;
+    width: 320px;
+    height: 400px;
+    background: #272d40;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.card__heart,.card__cart{
+    font-size: 25px;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+.card__cart{
+    left: unset;
+    right: 20px;
+}
+
+.card__img{
+    width: 90%;
+    }
+
+.card__img img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;    
+}
+
+
+.text {
+    position: absolute; /* Thiết lập vị trí tuyệt đối cho văn bản */
+    bottom: 0; /* Đặt văn bản ở dưới cùng của thẻ card */
+    left: 0; /* Đặt văn bản ở bên trái của thẻ card */
+    width: 100%; /* Đảm bảo văn bản căn giữa theo chiều ngang */
+    text-align: center; /* Căn giữa văn bản theo chiều ngang */
+    background-color: rgba(83, 253, 53, 0.7); /* Tạo một lớp nền cho văn bản */
+    padding: 10px; /* Thêm padding để tạo khoảng cách giữa văn bản và đường viền của thẻ */
+    box-sizing: border-box;  
+    }

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Website description here">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="/Images/logo.jpg">
+    <title> Trang chủ</title>
+    <link rel="stylesheet" href="/CSS/TRANGCHU.css">
+</head>
+<body>
+    <header>
+      <h1><img src="/Images/logo.jpg" alt="logo"> ĐỌC TRUYỆN ONLINE </h1>
+        <div class="nut"><button id="login">Sign In/Sign Up</button></div>  
+    </header>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">                      
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>      
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">HOME</a></li>
+                    <li class="dropdown"><a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="glyphicon glyphicon-list"></span> DANH MỤC <span class="caret"></span></a><ul class="dropdown-menu" role="menu"><li><a href="#" title="Truyện mới cập nhật">Truyện mới cập nhật</a></li></ul></li>
+                    <li class="dropdown"><a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="glyphicon glyphicon-list"></span> THỂ LOẠI <span class="caret"></span></a><ul class="dropdown-menu" role="menu"><li><a href="#" title="TRUYỆN TRANH">Truyện tranh</a></li></ul></li>
+                    <li class="dropdown"><a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="glyphicon glyphicon-list"></span> PHÂN LOẠI THEO CHƯƠNG <span class="caret"></span></a><ul class="dropdown-menu" role="menu"><li><a href="#" title="Dưới 100 chương">Dưới 100 chương</a></li></ul></li>
+                    <li><a href="#">DỊCH VỤ</a></li>
+                    <li><a href="#">LIÊN HỆ</a></li>
+                    
+                </ul>
+                <form class="navbar-form navbar-right" action="/HTML/TRANGCHU.html" method="get">
+                    <label for="seach"></label>
+                    <input type="text" class="form-control" placeholder="Search">
+                    <button type="submit" class="seach">SEARCH</button>
+                </form>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <!-- phan than cac mat -->
+    <div class="mathang">
+        <div class="item">item1
+            <a href="#" itemprop="url" itemtype="#">
+                <span class="full-label"></span>
+                <img src="/Images/anh.jpg" alt="mo" class="img-responsive item-img" itemprop="image" lazysrc="">
+                <div class="title">
+                    <div class="text"> MO</div> 
+                </div>
+            </a>
+        </div>
+
+        <div class="item">Item 2
+            <a href="#" itemprop="url" itemtype="#">
+                <span class="full-label"></span>
+                <img src="/Images/anh2.jpg" alt="mo" class="img-responsive item-img" itemprop="image" lazysrc="">
+                <div class="title">
+                    <div class="text"> ANH MO </div> 
+                </div>
+            </a>
+        </div>
+
+        <div class="item">Item 3
+            <a href="#" itemprop="url" itemtype="#">
+                <span class="full-label"></span>
+                <img src="/Images/anh.jpg" alt="mo" class="img-responsive item-img" itemprop="image" lazysrc="">
+                <div class="title">
+                    <div class="text"> MO</div> 
+                </div>
+            </a>
+        </div>
+
+        <div class="item"> Item 4
+            <a href="#" itemprop="url" itemtype="#">
+                <span class="full-label"></span>
+                <img src="/Images/hehe.jpg" alt="Tự Cẩm" class="img-responsive item-img" itemprop="image" lazysrc="">
+                <div class="title">
+                    <div class="text"> Tự Cẩm</div> 
+                </div>
+            </a>
+        </div>
+
+        <div class="item" itemscope="url" itemtype="#"> Item 5
+            <a href="#" itemprop="url">
+                <img src="/Images/logo.jpg" alt="Thần Đạo Đan Tôn" class="img-responsive item-img" itemprop="image">
+                <div class="title"> 
+                    <div class="text"> logo</div> 
+                </div>
+            </a>
+        </div>
+
+
+        <div class="item">Item 6</div>
+      </div>
+
+      <div class="mathang2">
+        <div class="item">item1
+            <img src="/Images/hehe.jpg">
+       </div>
+       <div class="item">Item 2
+           <img src="/Images/anh2.jpg">
+       </div>
+       <div class="item">Item 3
+           <img src="/Images/anh.jpg">
+       </div>
+       <div class="item">Item 4</div>
+       <div class="item">Item 5</div>
+       <div class="item">Item 6</div>
+      </div>
+    </div>
+
+
+
+
+
+   
+    <script src="/JS/TRANGCHU.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+
+</body>
+</html>
